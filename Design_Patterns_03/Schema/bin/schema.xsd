@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/schema" 
+xmlns:tns="http://www.example.org/schema" 
+elementFormDefault="qualified">
+	<element name="person">
+		<complexType>
+			<sequence>
+				<any></any>
+				<element name="name" type="string" maxOccurs="unbounded"></element>
+				<element name="age" type="int"></element>
+			</sequence>
+			<!-- <all>
+				<element name="name" type="string"></element>
+				<element name="age" type="int"></element>
+			</all> -->
+			<!-- <choice>
+				<element name="name" type="string"></element>
+				<element name="age" type="int"></element>
+			</choice> -->
+			<attribute name="number" type="int" use="required"></attribute>
+		</complexType>
+	</element>
+</schema>
+<!-- 
+	复杂元素指示器
+	sequence
+	all
+	chioce
+	
+	
+	maxOccurs="3"
+	
+	any
+	
+	约束属性
+	attribute
+	
+	
+
+
+ -->

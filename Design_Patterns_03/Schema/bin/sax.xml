@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person> 
+  <p1 id="chench"> 
+    <name>zhangsan</name>  
+    <school>yangzte university</school>
+    <school>yangzte university</school>  
+    <sex>男</sex>  
+    <sex>男</sex> 
+  </p1>  
+  <p1> 
+    <name>lisi</name>  
+    <age>34</age> 
+  </p1> 
+</person>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><earth>
+	<land>
+		<name>Asia</name>
+		<size>100</size>
+	</land>
+	<land>
+		<name>Europe</name>
+		<size>120</size>
+	</land>
+	<land>
+		<name>Africa</name>
+		<size>100</size>
+	</land>
+	
+
+<land><name>Oceania</name><size>111</size></land><land><name>Oceania</name><size>100</size></land></earth><!-- 
+	<ocean>
+		<name>Atlantic</name>
+		<size>160</size>
+	</ocean>
+	
+	<ocean>
+		<name>Arctic</name>
+		<size>180</size>
+	</ocean>
+	
+	<ocean>
+		<name>Pacific</name>
+		<size>190</size>
+	</ocean>
+	 -->
